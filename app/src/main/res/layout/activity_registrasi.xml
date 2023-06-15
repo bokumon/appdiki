@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="registrasiVM" type="com.bokusapplication.app.modules.registrasi.data.viewmodel.RegistrasiVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearRegistrasi"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <TextView android:ellipsize="end" android:id="@+id/txtRegister"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_46pxh"
+            android:layout_marginStart="@dimen/_46pxh"
+            android:layout_marginTop="@dimen/_58pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{registrasiVM.registrasiModel.txtRegister}"
+            style="@style/txtLancelot64_1" tools:text="@string/lbl_register"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtUsername"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_45pxh"
+            android:layout_marginStart="@dimen/_45pxh"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{registrasiVM.registrasiModel.txtUsername}"
+            style="@style/txtMulishromanbold16_2" tools:text="@string/lbl_username"/>
+        <EditText
+            android:background="@drawable/rectangle_bg_gray_100_radius_10"
+            android:ellipsize="end" android:id="@+id/etRectangleFour"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_45pxh"
+            android:layout_marginStart="@dimen/_45pxh"
+            android:layout_marginTop="@dimen/_2pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@={registrasiVM.registrasiModel.etRectangleFourValue}"
+            style="@style/etSolidRounded" tools:ignore="Autofill"/>
+        <FrameLayout android:id="@+id/frameStackrectanglenine"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_60pxv"
+            android:layout_marginEnd="@dimen/_45pxh"
+            android:layout_marginStart="@dimen/_45pxh"
+            android:layout_marginTop="@dimen/_13pxv" android:layout_width="@dimen/_284pxh">
+            <View
+                android:background="@drawable/rectangle_bg_gray_100_radius_10"
+                android:id="@+id/viewRectangleNine"
+                android:layout_gravity="bottom|center"
+                android:layout_height="@dimen/_40pxv"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_283pxh"/>
+            <TextView android:ellipsize="end" android:id="@+id/txtEmail"
+                android:layout_gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{registrasiVM.registrasiModel.txtEmail}"
+                style="@style/txtMulishromanbold16_2" tools:text="@string/lbl_email"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/frameStackrectanglefourOne"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_60pxv"
+            android:layout_marginEnd="@dimen/_45pxh"
+            android:layout_marginStart="@dimen/_45pxh"
+            android:layout_marginTop="@dimen/_14pxv" android:layout_width="@dimen/_283pxh">
+            <View
+                android:background="@drawable/rectangle_bg_gray_100_radius_10"
+                android:id="@+id/viewRectangleFourOne"
+                android:layout_gravity="bottom|start"
+                android:layout_height="@dimen/_40pxv"
+                android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_283pxh"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtPassword"
+                android:layout_gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{registrasiVM.registrasiModel.txtPassword}"
+                style="@style/txtMulishromanbold16_2" tools:text="@string/lbl_password"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/frameStackrectanglenineOne"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_59pxv"
+            android:layout_marginEnd="@dimen/_45pxh"
+            android:layout_marginStart="@dimen/_45pxh"
+            android:layout_marginTop="@dimen/_14pxv" android:layout_width="@dimen/_283pxh">
+            <View
+                android:background="@drawable/rectangle_bg_gray_100_radius_10"
+                android:id="@+id/viewRectangleNineOne"
+                android:layout_gravity="bottom|start"
+                android:layout_height="@dimen/_40pxv"
+                android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_283pxh"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtNoTelp"
+                android:layout_gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{registrasiVM.registrasiModel.txtNoTelp}"
+                style="@style/txtMulishromanbold16_2" tools:text="@string/lbl_no_telp"/>
+        </FrameLayout>
+        <TextView android:ellipsize="end" android:id="@+id/txtAlamat"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_47pxh"
+            android:layout_marginStart="@dimen/_47pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{registrasiVM.registrasiModel.txtAlamat}"
+            style="@style/txtMulishromanbold16_2" tools:text="@string/lbl_alamat"/>
+        <EditText
+            android:background="@drawable/rectangle_bg_gray_100_radius_10"
+            android:ellipsize="end" android:id="@+id/etRectangleNineTwo"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_45pxh"
+            android:layout_marginStart="@dimen/_45pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@={registrasiVM.registrasiModel.etRectangleNineTwoValue}"
+            style="@style/etSolidRounded" tools:ignore="Autofill"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnSubmit"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_40pxv"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_45pxh"
+            android:layout_marginStart="@dimen/_45pxh"
+            android:layout_marginTop="@dimen/_69pxv"
+            android:layout_width="@dimen/_242pxh"
+            android:paddingBottom="@dimen/_10pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_10pxv" android:singleLine="true"
+            android:text="@string/lbl_submit"
+            android:textAllCaps="false" style="@style/btnSolidRounded" tools:text="@string/lbl_submit"/>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">boku_s_application10</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_kontak_person">Kontak Person</string>
+<string name="lbl_email">Email</string>
+<string name="msg_laundry_dan_sol">LAUNDRY DAN SOL SEPATU LUGAS FRESH</string>
+<string name="lbl_ubah">Ubah</string>
+<string name="lbl_jenis_kelamin">Jenis Kelamin</string>
+<string name="lbl_contact_person">Contact Person</string>
+<string name="lbl_biodata">BIodata</string>
+<string name="msg_hello_user_u">Hello, User!
+@username</string>
+<string name="msg_don_t_have_acco">Don\u2019t have account? Create one!</string>
+<string name="msg_tempat_sol_sepa">Tempat sol sepatu terdekat</string>
+<string name="msg_jl_tj_pura_k">Jl. Tj. Pura, Klandasan Ulu, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur - 08xxxxxxxxxx
+Jam buka : 09.00 - 17.00</string>
+<string name="lbl_08123xxxxxxxxx">08123xxxxxxxxx</string>
+<string name="lbl_masuk">Masuk</string>
+<string name="lbl_dd_mm_yyyy">DD/MM/YYYY</string>
+<string name="msg_jl_jenderal_su">Jl. Jenderal Sudirman No.1, Klandasan Ulu, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur - 08xxxxxxxxxx
+Jam buka : 09.00 - 17.00</string>
+<string name="msg_jl_gajah_mada2">Jl. Gajah Mada, Klandasan Ilir, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur</string>
+<string name="lbl_sukses">Sukses</string>
+<string name="lbl_sol_sepatu">Sol Sepatu</string>
+<string name="lbl_pria">Pria</string>
+<string name="lbl_eksplor">Eksplor</string>
+<string name="msg_jl_gajah_mada">Jl. Gajah Mada, Klandasan Ilir, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur - 08xxxxxxxxxxx
+Jam buka : 09.00 - 17.00</string>
+<string name="lbl_no_telp">No Telp</string>
+<string name="lbl_order">Order</string>
+<string name="lbl_create_one">Create one!</string>
+<string name="msg_don_t_have_acco2">Don\u2019t have account? </string>
+<string name="lbl_daftar_alamat">Daftar Alamat</string>
+<string name="lbl_user">User</string>
+<string name="lbl_nama">Nama</string>
+<string name="lbl_password">Password</string>
+<string name="msg_jl_soekarno_ha">Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136 - 08xxxxxxxxxx
+Jam buka : 09.00 - 17.00</string>
+<string name="lbl_pusat_kontrol">Pusat Kontrol</string>
+<string name="lbl_alamat">Alamat</string>
+<string name="msg_sol_sepatu_tauf">Sol sepatu taufik</string>
+<string name="lbl_tanggal_lahir">Tanggal Lahir</string>
+<string name="lbl_username">Username</string>
+<string name="lbl_register">Register</string>
+<string name="lbl_submit">Submit</string>
+<string name="lbl_akun">Akun</string>
+<string name="msg_someone_email_c">someone@email.com</string>
+<string name="lbl_pilih_alamat">Pilih Alamat</string>
+<string name="lbl_repair_shoes">Repair Shoes</string>
+<string name="msg_pusat_sol_sepat">Pusat Sol Sepatu</string>
+<string name="lbl_kontak">Kontak</string>
+</resources>
