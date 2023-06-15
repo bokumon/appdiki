@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="daftarAlamatRowModel" type="com.bokusapplication.app.modules.daftaralamat.data.model.DaftarAlamatRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRownama"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end" android:id="@+id/txtNama"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="0.24" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{daftarAlamatRowModel.txtNama}"
+            style="@style/txtMulishromanbold15" tools:text="@string/lbl_nama"/>
+        <LinearLayout android:id="@+id/linearRowusername"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_93pxh"
+            android:layout_weight="0.76" android:layout_width="0dp" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtUsername"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_weight="0.65" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{daftarAlamatRowModel.txtUsername}"
+                style="@style/txtMulishromanbold15" tools:text="@string/lbl_username"/>
+            <TextView android:ellipsize="end" android:id="@+id/txtUbah"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:layout_marginStart="@dimen/_24pxh"
+                android:layout_weight="0.35" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{daftarAlamatRowModel.txtUbah}"
+                style="@style/txtMulishromanbold15_1" tools:text="@string/lbl_ubah"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
